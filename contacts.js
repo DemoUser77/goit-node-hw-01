@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
+import { nanoid } from "nanoid";
 
 const contactsPath = path.resolve("db", "contacts.json");
  
@@ -34,6 +35,7 @@ export const removeContact = async (id) => {
 export const addContact = async ({ name, email, phone })=> {
   const contact = await listContacts();
   const newContact = {
+    id: nanoid(),
     name,
     email,
     phone,

@@ -6,6 +6,7 @@ https://monosnap.com/file/B0gsbfKnAZvURXjBWnZy7AfvqlBiMJ
 
 node index.js --action="add" --name Mango --email mango@gmail.com --phone 322-22-22
 https://monosnap.com/file/buloJBebgZ1Fqo9h6pBh9BGBIzWNvP
+Нове Фото- https://monosnap.com/file/VICEe2wevZqsJ0TJjQ1y2VRt9EDPGk
 
 node index.js --action="remove" --id qdggE76Jtbfd9eWJHrssH
 https://monosnap.com/file/dB8UqPY2rFCl4trdt2uXPHs83GMcIQ
